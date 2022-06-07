@@ -1,0 +1,130 @@
+body {
+  background-color: #11111b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#editor {
+  border-radius: 10px;
+  background-color: #181926;
+  border: none;
+  outline: none;
+  width: 48.7%;
+  position: absolute;
+  height: 97%;
+  color: #c5cff5;
+  font-family: Cantarell, "Open Sans";
+  font-size: large;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  z-index: -1;
+}
+
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: #c5cff5;
+}
+
+.result {
+  border-radius: 10px;
+  right: 0px;
+  background-color: #181926;
+  border: none;
+  outline: none;
+  width: 48.7%;
+  position: absolute;
+  padding-bottom: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 97%;
+  color: #c5cff5;
+  font-family: Cantarell, "Open Sans";
+  font-size: medium;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  z-index: -1;
+}
+
+.menu {
+  background-color: #303446;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  display: inline-block;
+  border-radius: 30%;
+  position: absolute;
+  left: 96.5%;
+  top: 1.5%;
+}
+
+.download {
+  background-color: #303446;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  display: inline-block;
+  border-radius: 30%;
+  position: absolute;
+  left: 93%;
+  top: 1.5%;
+}
+
+.import::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.import {
+  background-color: #888;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  display: inline-block;
+  border-radius: 30%;
+  position: absolute;
+  left: 93%;
+  top: 8%;
+  -webkit-mask-image: url("https://api.iconify.design/tabler:file-import.svg?color=%23888888");
+  mask-image: url("https://api.iconify.design/tabler:file-import.svg?color=%23888888");
+  -webkit-mask-size: 60%;
+  mask-size: 60%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  z-index: 1000;
+}
+
+.import-wrap {
+  background-color: #303446;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  display: inline-block;
+  border-radius: 30%;
+  position: absolute;
+  left: 93%;
+  top: 6.5%;
+}
+
+.about {
+  background-color: #303446;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  display: inline-block;
+  border-radius: 30%;
+  position: absolute;
+  left: 96.5%;
+  top: 8%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
