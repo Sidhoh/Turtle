@@ -119,7 +119,7 @@ Is a rework of  [goo](https://www.goo.sidhh.online/) with new changes like new t
 
 Pressing **ESC** opens up the menu bar where you can access save, open, and about menus.
 
-⟨/⟩ with ♥ & VueJS, by [SIdh](https://github.com/sidhoh)`;
+⟨/⟩ with ♥ & VueJS, by [Sidh](https://github.com/sidhoh)`;
       this.output = marked(this.input);
     },
   },
