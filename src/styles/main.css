@@ -11,7 +11,7 @@ body {
   outline: none;
   width: 48.7%;
   position: absolute;
-  height: 97%;
+  height: 93%;
   color: #c5cff5;
   font-family: Cantarell, "Open Sans";
   font-size: large;
@@ -38,7 +38,7 @@ a {
   padding-bottom: 0px;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 97%;
+  height: 93%;
   color: #c5cff5;
   font-family: Cantarell, "Open Sans";
   font-size: medium;
@@ -48,81 +48,70 @@ a {
   z-index: -1;
 }
 
-.menu {
-  background-color: #303446;
-  height: 50px;
-  width: 50px;
-  outline: none;
-  border: none;
-  display: inline-block;
-  border-radius: 30%;
-  position: absolute;
-  left: 96.5%;
-  top: 1.5%;
-}
-
 .download {
-  background-color: #303446;
-  height: 50px;
-  width: 50px;
+  padding-left: 10px;
+  background-color: #181926;
+  height: 20px;
+  width: 20px;
   outline: none;
   border: none;
   display: inline-block;
-  border-radius: 30%;
-  position: absolute;
-  left: 93%;
-  top: 1.5%;
+  top: 18px;
+  left: 44.5%;
+  cursor: pointer;
 }
 
-.import::-webkit-file-upload-button {
-  visibility: hidden;
+label {
+  padding-left: 50px;
+  cursor: pointer;
 }
 
 .import {
-  background-color: #888;
-  height: 50px;
-  width: 50px;
-  outline: none;
-  border: none;
-  display: inline-block;
-  border-radius: 30%;
-  position: absolute;
-  left: 93%;
-  top: 8%;
-  -webkit-mask-image: url("https://api.iconify.design/tabler:file-import.svg?color=%23888888");
-  mask-image: url("https://api.iconify.design/tabler:file-import.svg?color=%23888888");
-  -webkit-mask-size: 60%;
-  mask-size: 60%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  z-index: 1000;
+  background: #181926; 
+  color: #fff;
 }
 
-.import-wrap {
-  background-color: #303446;
-  height: 50px;
-  width: 50px;
-  outline: none;
-  border: none;
-  display: inline-block;
-  border-radius: 30%;
-  position: absolute;
-  left: 93%;
-  top: 6.5%;
+input[type="file"] {
+  display: none;
 }
 
 .about {
-  background-color: #303446;
-  height: 50px;
-  width: 50px;
+  padding-left: 30px;
+  background-color: #181926;
+  height: 0px;
+  width: 0px;
   outline: none;
   border: none;
   display: inline-block;
-  border-radius: 30%;
+  top: 18px;
+  left: 52.5%;
+  cursor: pointer;
+}
+
+.github { 
+  padding-left: 55px;
+  background-color: #181926;
+  height:0px;
+  width: 0px;
+  outline: none;
+  border: none;
+  display: inline-block;
+  top: 18px;
+  left: 52.5%;
+}
+
+.menu {
+  background-color: #181926;
+  border-radius: 20px;
+  height: 30px;
+  width: 100%;
+  z-index: 2;
   position: absolute;
-  left: 96.5%;
-  top: 8%;
+  bottom: 3%;
+}
+
+hr {
+  border-top: 2px solid #c5cff5;
 }
 
 ::-webkit-scrollbar {
